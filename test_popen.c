@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main (){
+
+	// Solved using "/bin/echo -n"
 	const char * command = "echo -n 'Hello World'";
 	FILE * stream = popen(command, "r");
 
