@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-	const char * command = "echo -n \"Hello World!\"";
+	const char * command = "echo -n \"Hello World\"";
 	FILE * stream = popen(command, "r");
 
 	if (!stream) {

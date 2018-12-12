@@ -1,6 +1,6 @@
 # test_popen.c
 
-Different output executing on **macOS** and **GNU-Linux** in **C**, the function `popen("echo -n \"Hello World!\"")`
+Different output executing on **macOS** and **GNU-Linux** in **C**, the function `popen("echo -n \"Hello World\"")`
 * [macOS](#macOS)
 * [GNU-Linux](#gnu-linux)
 
@@ -9,7 +9,7 @@ Different output executing on **macOS** and **GNU-Linux** in **C**, the function
 ```
 $ gcc test_popen.c
 $ ./a.out
--n Hello World!
+-n Hello World
 $
 ```
 ## GNU-Linux
@@ -17,5 +17,5 @@ $
 ```
 $ gcc test_popen.c
 $ ./a.out
-Hello World!$
+Hello World$
 ```
